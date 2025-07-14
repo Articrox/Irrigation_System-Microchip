@@ -1,0 +1,41 @@
+# .gitignore file
+
+# Macos specific
+.DS_Store
+
+# MPLAB X IDE (Netbeans) specific
+**/*.X/~*.*
+**/*.X/build/
+**/*.X/debug/
+**/*.X/dist/
+**/*.X/disassembly/
+**/*.X/.generated_files/
+**/*.X/nbproject/private/
+**/*.X/nbproject/*.mk
+**/*.X/nbproject/*.bash
+**/*.X/nbproject/Makefile-genesis.properties
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Executables
+*.exe
+
+# KDE specific
+.directory
+
+# VSCode specific
+**/.vscode/
+
+# Misc
+.svn
+*.bak
+/build/
+/dist/
+**/.zip
+**/.*
+!.gitignore
+!.gitmodules
